@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+## Read 03 – Revisions and the Cloud Assignment
 
-You can use the [editor on GitHub](https://github.com/khill365/reading-notes-Read-03/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### What is Git?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In order to understand Git, you have to understand the type of system it is and what that type of software does. 
+- Git is a type of version control system (VCS) that allows a developer or team of developers to communicate effectively and efficiently on a project involving changes in source code or document text. 
+-	Version control software like Git maintains a history of changes to files and allows you to see a snapshot of the application before and after changes have been made.
+-	It also allows you to keep all the changes in a manageable repository, also known as a “repo.”
 
-### Markdown
+### Commits:
+-	Commits can be thought of as a type of “Save As…” function seen in text editors. 
+-	Each time you commit a change, it creates a successive version of the file or files and creates a new snapshot on the timeline of the project.
+-	Git keeps track of what the file looked list at different points in the project timeline.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Keeping track of your Git:
+-	In order to tell where you are located in the project, you may see “HEAD,” which represent the most recent version of the file or files and asks as a star on a map letting you know where you are,
+-	Another way to keep track of your Git, is to assign messages to when you perform commits. 
+-	Messages are a descriptive summary of actions or code you did before you make the commit. 
+-	Messages are like breadcrumbs of information you leave so that you know what was done prior to the commit action.
 
-```markdown
-Syntax highlighted code block
+### GitHub:
+-	It’s not made by the same people that created Git, or related to Git, but it talks to Git and vice versa.
+-	GitHub allows developers of Git to remotely interact with each other through GitHub.
+-	A key difference between the two programs is that Git is local to your computer system, but GitHub is located in the cloud.
+-	A benefit of GitHub is that it’s an online place to store your code versus storing it on your computer, which could be subject to crashes or malicious viruses that could wipe out your projects.
+-	GitHub does allow you to share your code with others.
+-	It uses Git to help you manage your team's work, as well as version tracking and reviewing changes.
+-	GitHub also keeps changes separate until you want to add them in to your main application
 
-# Header 1
-## Header 2
-### Header 3
+### Git + GitHub Together:
+-	Using both of these programs together, you can have multiple team members work on the same files at the same time without messing up each other’s code.
+-	You can also work on code on your own computer and sync it with the code that’s online
+- They keep a history of each file over time.
 
-- Bulleted
-- List
+### Repositories (repos):
+-	Essentially, a repository is a place where things are stored.
+-	In a repository, you have a collection of files of code that you've told Git to look at.
+-	Typically, there is one project for one repository, but you may see really large projects that have many repos
+-	Repos can live on GitHub and/or your computer.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/khill365/reading-notes-Read-03/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### GitHub Pages:
+-	It’s a hosting site that takes your files from your GitHub repository and creates a published site that looks like a typical webpage.
+-	When you make changes to your repository and want to publish them in your GitHub Pages, you do a “deployment.”
